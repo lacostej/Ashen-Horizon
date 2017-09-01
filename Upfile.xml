@@ -1,0 +1,55 @@
+<Upfile>
+  <UnityVersion>2017.1.0f3</UnityVersion>
+  <Repositories>
+    <FileRepository Path="DemoRepository" />
+  </Repositories>
+  <Configuration>
+    <!--
+        Important note:
+
+        We're not tracing Location settings for anything unpacked outside of Assets.
+        This means, that if you change those in settings while already
+        having packages/other stuff installed then you need to cleanup
+        previous locations manually at your own discretion.
+    -->
+    <!--
+        Path Flags:
+
+        SkipPackageStructure (true|false):
+          Don't create package subdirectories
+          (in form of PackageName~1.0.0)
+    -->
+    <!--
+        Repository configuration part.
+
+        Most often, files here shouldn't be visible by your project.
+        i.e. should be put out of the Assets/ path in your project.
+    -->
+    <!-- Path where downloaded, raw, packages are unpacked        -->
+    <RepositoryPath Location="UPackages" />
+    <!-- Path where documentation are unpacked                    -->
+    <DocsPath Location="UPackages/Docs" />
+    <!-- Path where examples are unpacked                         -->
+    <ExamplesPath Location="UPackages/Examples" />
+    <!--
+        Project configuration part.
+
+        Paths set here most often should be visible by your project,
+        i.e. be in Assets path.
+    -->
+    <!-- Path where "usable" files are unpacked                   -->
+    <BaseInstallPath Location="Assets/Standard Assets/UPackages" />
+    <!-- Path where media  files are unpacked                     -->
+    <MediaPath Location="Assets/UPackages" />
+    <!-- Path where plugin files are unpacked                     -->
+    <PluginPath Location="Assets/Plugins" />
+    <!-- Path where editor plugin files are unpacked              -->
+    <EditorPluginPath Location="Assets/Editor/Plugins" />
+    <!-- Path where gizmos are unpacked                           -->
+    <GizmoPath Location="Assets/Gizmos" />
+  </Configuration>
+  <Dependencies>
+    <Package Name="HeightMap" Version="0.0.1" />
+    <Package Name="Wind" Version="0.0.1" />
+  </Dependencies>
+</Upfile>

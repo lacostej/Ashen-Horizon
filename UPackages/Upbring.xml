@@ -1,0 +1,21 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Upbring xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <InstalledPackage Name="HeightMap" Version="0.0.1">
+    <Install xsi:type="InstallSpecPath" Type="Root" Path="UPackages\HeightMap~0.0.1" />
+    <Install xsi:type="InstallSpecGUID" Type="Base" Guid="9d9c21880e4a60b49ac7513ea7bd9855" />
+    <Install xsi:type="InstallSpecGUID" Type="Base" Guid="4093b24f5810fb84f9ce69aa96f6aab5" />
+    <Install xsi:type="InstallSpecGUID" Type="Base" Guid="3978cf0db8bd11a4ba67af8df6b34bcd" />
+    <Install xsi:type="InstallSpecGUID" Type="Base" Guid="50aca199170fda445968471956258c71" />
+  </InstalledPackage>
+  <InstalledPackage Name="Noise" Version="0.0.1">
+    <Install xsi:type="InstallSpecPath" Type="Root" Path="UPackages\Noise~0.0.1" />
+    <Install xsi:type="InstallSpecGUID" Type="Base" Guid="d45b6523ae48d224f9490f4fb2877da6" />
+  </InstalledPackage>
+  <InstalledPackage Name="Wind" Version="0.0.1">
+    <Install xsi:type="InstallSpecPath" Type="Root" Path="UPackages\Wind~0.0.1" />
+    <Install xsi:type="InstallSpecGUID" Type="Base" Guid="4bbb7b0530713954d80b70a50179134c" />
+    <Install xsi:type="InstallSpecGUID" Type="Base" Guid="a9a3c2a64d723e748bfe6cb97a354a56" />
+    <Install xsi:type="InstallSpecGUID" Type="Base" Guid="63948e8cc03a77f48afa81904cf5fb71" />
+    <Install xsi:type="InstallSpecGUID" Type="Base" Guid="d4e8df1a17fd01b49ab19dd9e8ddfeec" />
+  </InstalledPackage>
+</Upbring>

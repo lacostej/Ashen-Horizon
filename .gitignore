@@ -1,0 +1,7 @@
+/Library
+/Temp
+/.vs
+/Assets/Standard Assets/UPackages*
+
+*.csproj
+*.sln
